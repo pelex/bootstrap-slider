@@ -1,12 +1,12 @@
 {
   "name": "bootstrap-slider",
-  "version": "7.1.1",
+  "version": "9.0.0",
   "description": "Slider view component for Twitter Bootstrap.",
   "main": "dist/bootstrap-slider.js",
   "style": "dist/css/bootstrap-slider.css",
   "scripts": {
-    "postpublish": "sh ./scripts/postpublish.sh",
-    "test": "grunt test"
+    "test": "grunt test",
+    "release": "sh ./scripts/release.sh"
   },
   "homepage": "http://github.com/seiyria/bootstrap-slider",
   "repository": {
